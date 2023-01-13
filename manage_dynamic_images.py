@@ -162,7 +162,7 @@ def vid_filter(file):
     cap.release()
     cv2.destroyAllWindows()
 
-
+print('\033[48;5;147m'+'--------영상을 수정하는 공간입니다--------'+'\033[0m')
 print('\n[동영상 목록]')
 for index in range (0,len(file_list)):
     if file_list[int(index)].endswith('.mp4'):
